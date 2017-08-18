@@ -41,6 +41,4 @@ public class PersonDao {
             throw new RuntimeException("IOException from a StringWriter?");
         }
     }
-
-
 }
