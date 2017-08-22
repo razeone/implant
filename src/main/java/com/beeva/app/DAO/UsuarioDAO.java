@@ -18,7 +18,7 @@ public class UsuarioDAO{
         //sql2o.cerrarConexion(connect);
     }
 
-    public Recurso getUsuario(int idUsuario) {
+    public Usuario getUsuario(int idUsuario) {
         String query = "SELECT * FROM usuario WHERE idUsuario = :idUsuario";
         try (Connection connect = sql2o.open()) {
             return connect.createQuery(query).addParameter("idUsuario",idUsuario).executeAndFetchFirst(Usuario.class);

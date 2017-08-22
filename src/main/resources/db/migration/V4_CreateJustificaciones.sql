@@ -1,0 +1,1 @@
+INSERT INTO justificacion (idjustificacion, descripcion) VALUES(1,'Proyectos previos al Modelo Implant'),(2,'Licencias'),(3,'Infraestructura'),(4,'Desarrollo externo'),(5,'Ajustes proyectos terminados'),(6,'Servicios Extendidos'),(7,'Servicio / Soporte'),(8,'Pago IMPLANT');

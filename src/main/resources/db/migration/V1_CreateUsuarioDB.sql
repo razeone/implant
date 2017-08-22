@@ -1,0 +1,1 @@
+CREATE USER implantdb WITH PASSWORD 'b33v42017!';

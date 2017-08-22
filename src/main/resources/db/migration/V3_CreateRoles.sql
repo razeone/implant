@@ -1,0 +1,1 @@
+INSERT INTO rol (idrol, nombrerol) VALUES(1,'administrador'),(2,'lider implant'),(3,'implant');
