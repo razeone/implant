@@ -10,18 +10,18 @@ public class RecursoDAO{
 
     private static Sql2o sql2o = Conexion.obtenerConexion();
 
-    public List<Object> obtenerTodosRecursos(){
+    public List<Recurso> obtenerTodosRecursos(){
         String query = "SELECT * FROM recurso";
         try(Connection connect = sql2o.open()){
-            return connect.createQuery(query).executeAndFetch(Object.class);
+            return connect.createQuery(query).executeAndFetch(Recurso.class);
         }
         //sql2o.cerrarConexion(connect);
     }
 
-    public Object getRecurso(String codigoRecurso){
-        String query = "SELECT * FROM recurso WHERE codigoRecurso='"+codigoRecurso+"';";
-        try(Connection connect = sql2o.open()){
-            return connect.createQuery(query).executeAndFetch(Object.class);
+    public Recurso getRecurso(String codigoRecurso) {
+        String query = "SELECT * FROM recurso WHERE codigoRecurso= :codigoRecurso";
+        try (Connection connect = sql2o.open()) {
+            return connect.createQuery(query).addParameter("codigoRecurso",codigoRecurso).executeAndFetchFirst(Recurso.class);
         }
         //sql2o.cerrarConexion(connect);
     }

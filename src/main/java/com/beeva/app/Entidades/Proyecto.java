@@ -5,17 +5,17 @@ import java.util.Date;
 public class Proyecto{
 
     private String codigoProyecto;
-    private String elementoPEP;
-    private String nombreProyecto;
-    private String responsable;
-    private Date fechaInicio;
-    private Date fechaFin;
+    private String elementopep;
+    private String nombreproyecto;
+    private String responsableproyecto;
+    private String fechainicio;
+    private String fechafin;
     private String estatus;
     private int posicion;
     private double presupuesto;
     private double disponible;
-    private String codigoCompra;
-    private String codigoOrden;
+    private String codigocompra;
+    private String codigoorden;
     private String tipo;
 
     public String getCodigoProyecto() {
@@ -26,44 +26,44 @@ public class Proyecto{
         this.codigoProyecto = codigoProyecto;
     }
 
-    public String getElementoPEP() {
-        return elementoPEP;
+    public String getElementopep() {
+        return elementopep;
     }
 
-    public void setElementoPEP(String elementoPEP) {
-        this.elementoPEP = elementoPEP;
+    public void setElementopep(String elementopep) {
+        this.elementopep = elementopep;
     }
 
-    public String getNombreProyecto() {
-        return nombreProyecto;
+    public String getNombreproyecto() {
+        return nombreproyecto;
     }
 
-    public void setNombreProyecto(String nombreProyecto) {
-        this.nombreProyecto = nombreProyecto;
+    public void setNombreproyecto(String nombreproyecto) {
+        this.nombreproyecto = nombreproyecto;
     }
 
-    public String getResponsable() {
-        return responsable;
+    public String getResponsableproyecto() {
+        return responsableproyecto;
     }
 
-    public void setResponsable(String responsable) {
-        this.responsable = responsable;
+    public void setResponsableproyecto(String responsableproyecto) {
+        this.responsableproyecto = responsableproyecto;
     }
 
-    public Date getFechaInicio() {
-        return fechaInicio;
+    public String getFechainicio() {
+        return fechainicio;
     }
 
-    public void setFechaInicio(Date fechaInicio) {
-        this.fechaInicio = fechaInicio;
+    public void setFechainicio(String fechainicio) {
+        this.fechainicio = fechainicio;
     }
 
-    public Date getFechaFin() {
-        return fechaFin;
+    public String getFechafin() {
+        return fechafin;
     }
 
-    public void setFechaFin(Date fechaFin) {
-        this.fechaFin = fechaFin;
+    public void setFechafin(String fechafin) {
+        this.fechafin = fechafin;
     }
 
     public String getEstatus() {
@@ -98,20 +98,20 @@ public class Proyecto{
         this.disponible = disponible;
     }
 
-    public String getCodigoCompra() {
-        return codigoCompra;
+    public String getCodigocompra() {
+        return codigocompra;
     }
 
-    public void setCodigoCompra(String codigoCompra) {
-        this.codigoCompra = codigoCompra;
+    public void setCodigocompra(String codigocompra) {
+        this.codigocompra = codigocompra;
     }
 
-    public String getCodigoOrden() {
-        return codigoOrden;
+    public String getCodigoorden() {
+        return codigoorden;
     }
 
-    public void setCodigoOrden(String codigoOrden) {
-        this.codigoOrden = codigoOrden;
+    public void setCodigoorden(String codigoorden) {
+        this.codigoorden = codigoorden;
     }
 
     public String getTipo() {
