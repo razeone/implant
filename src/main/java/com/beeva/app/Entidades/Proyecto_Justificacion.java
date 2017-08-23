@@ -1,22 +1,22 @@
 package com.beeva.app.Entidades;
 
 public class Proyecto_Justificacion{
-    private String codigoProyecto;
-    private int idJustificacion;
+    private String codigoproyecto;
+    private int idjustificacion;
 
-    public String getCodigoProyecto() {
-        return codigoProyecto;
+    public String getCodigoproyecto() {
+        return codigoproyecto;
     }
 
-    public void setCodigoProyecto(String codigoProyecto) {
-        this.codigoProyecto = codigoProyecto;
+    public void setCodigoproyecto(String codigoproyecto) {
+        this.codigoproyecto = codigoproyecto;
     }
 
-    public int getIdJustificacion() {
-        return idJustificacion;
+    public int getIdjustificacion() {
+        return idjustificacion;
     }
 
-    public void setIdJustificacion(int idJustificacion) {
-        this.idJustificacion = idJustificacion;
+    public void setIdjustificacion(int idjustificacion) {
+        this.idjustificacion = idjustificacion;
     }
 }

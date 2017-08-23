@@ -1,31 +1,31 @@
 package com.beeva.app.Entidades;
 
 public class Moneda{
-    private int idMoneda;
-    private String tipoMoneda;
-    private double tipoCambio;
+    private int idmoneda;
+    private String tipomoneda;
+    private double tipocambio;
 
-    public int getIdMoneda() {
-        return idMoneda;
+    public int getIdmoneda() {
+        return idmoneda;
     }
 
-    public void setIdMoneda(int idMoneda) {
-        this.idMoneda = idMoneda;
+    public void setIdmoneda(int idmoneda) {
+        this.idmoneda = idmoneda;
     }
 
-    public String getTipoMoneda() {
-        return tipoMoneda;
+    public String getTipomoneda() {
+        return tipomoneda;
     }
 
-    public void setTipoMoneda(String tipoMoneda) {
-        this.tipoMoneda = tipoMoneda;
+    public void setTipomoneda(String tipomoneda) {
+        this.tipomoneda = tipomoneda;
     }
 
-    public double getTipoCambio() {
-        return tipoCambio;
+    public double getTipocambio() {
+        return tipocambio;
     }
 
-    public void setTipoCambio(double tipoCambio) {
-        this.tipoCambio = tipoCambio;
+    public void setTipocambio(double tipocambio) {
+        this.tipocambio = tipocambio;
     }
 }

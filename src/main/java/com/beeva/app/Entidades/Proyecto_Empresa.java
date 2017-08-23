@@ -2,22 +2,22 @@ package com.beeva.app.Entidades;
 
 public class Proyecto_Empresa{
 
-    private String codigoProyecto;
-    private String codigoEmpresa;
+    private String codigoproyecto;
+    private String codigoempresa;
 
-    public String getCodigoProyecto() {
-        return codigoProyecto;
+    public String getCodigoproyecto() {
+        return codigoproyecto;
     }
 
-    public void setCodigoProyecto(String codigoProyecto) {
-        this.codigoProyecto = codigoProyecto;
+    public void setCodigoproyecto(String codigoproyecto) {
+        this.codigoproyecto = codigoproyecto;
     }
 
-    public String getCodigoEmpresa() {
-        return codigoEmpresa;
+    public String getCodigoempresa() {
+        return codigoempresa;
     }
 
-    public void setCodigoEmpresa(String codigoEmpresa) {
-        this.codigoEmpresa = codigoEmpresa;
+    public void setCodigoempresa(String codigoempresa) {
+        this.codigoempresa = codigoempresa;
     }
 }

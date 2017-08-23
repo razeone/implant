@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Proyecto{
 
-    private String codigoProyecto;
+    private String codigoproyecto;
     private String elementopep;
     private String nombreproyecto;
     private String responsableproyecto;
@@ -18,12 +18,12 @@ public class Proyecto{
     private String codigoorden;
     private String tipo;
 
-    public String getCodigoProyecto() {
-        return codigoProyecto;
+    public String getCodigoproyecto() {
+        return codigoproyecto;
     }
 
-    public void setCodigoProyecto(String codigoProyecto) {
-        this.codigoProyecto = codigoProyecto;
+    public void setCodigoproyecto(String codigoproyecto) {
+        this.codigoproyecto = codigoproyecto;
     }
 
     public String getElementopep() {

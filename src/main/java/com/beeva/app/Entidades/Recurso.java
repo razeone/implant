@@ -7,6 +7,9 @@ public class Recurso{
     private String apellidopaterno;
     private String apellidomaterno;
     private String estadorecurso;
+    private String nombreperfil;
+    private String nombreempresa;
+    private String estadorecurso;
 
     public String getCodigorecurso() {
         return codigorecurso;
@@ -46,5 +49,21 @@ public class Recurso{
 
     public void setEstadorecurso(String estadorecurso) {
         this.estadorecurso = estadorecurso;
+    }
+
+    public String getNombreperfil() {
+        return nombreperfil;
+    }
+
+    public void setNombreperfil(String nombreperfil) {
+        this.nombreperfil = nombreperfil;
+    }
+
+    public String getNombreempresa() {
+        return nombreempresa;
+    }
+
+    public void setNombreempresa(String nombreempresa) {
+        this.nombreempresa = nombreempresa;
     }
 }

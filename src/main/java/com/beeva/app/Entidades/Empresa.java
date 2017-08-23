@@ -1,49 +1,50 @@
 package com.beeva.app.Entidades;
 
 public class Empresa{
-    private String codigoEmpresa;
-    private String nombreEmpresa;
-    private String estatusEmpresa;
-    private double tarifaGeneral;
-    private int idMoneda;
 
-    public String getCodigoEmpresa() {
-        return codigoEmpresa;
+    private String codigoempresa;
+    private String nombreempresa;
+    private String estatusempresa;
+    private double tarifageneral;
+    private int idmoneda;
+
+    public String getCodigoempresa() {
+        return codigoempresa;
     }
 
-    public void setCodigoEmpresa(String codigoEmpresa) {
-        this.codigoEmpresa = codigoEmpresa;
+    public void setCodigoempresa(String codigoempresa) {
+        this.codigoempresa = codigoempresa;
     }
 
-    public String getNombreEmpresa() {
-        return nombreEmpresa;
+    public String getNombreempresa() {
+        return nombreempresa;
     }
 
-    public void setNombreEmpresa(String nombreEmpresa) {
-        this.nombreEmpresa = nombreEmpresa;
+    public void setNombreempresa(String nombreempresa) {
+        this.nombreempresa = nombreempresa;
     }
 
-    public String getEstatusEmpresa() {
-        return estatusEmpresa;
+    public String getEstatusempresa() {
+        return estatusempresa;
     }
 
-    public void setEstatusEmpresa(String estatusEmpresa) {
-        this.estatusEmpresa = estatusEmpresa;
+    public void setEstatusempresa(String estatusempresa) {
+        this.estatusempresa = estatusempresa;
     }
 
-    public double getTarifaGeneral() {
-        return tarifaGeneral;
+    public double getTarifageneral() {
+        return tarifageneral;
     }
 
-    public void setTarifaGeneral(double tarifaGeneral) {
-        this.tarifaGeneral = tarifaGeneral;
+    public void setTarifageneral(double tarifageneral) {
+        this.tarifageneral = tarifageneral;
     }
 
-    public int getIdMoneda() {
-        return idMoneda;
+    public int getIdmoneda() {
+        return idmoneda;
     }
 
-    public void setIdMoneda(int idMoneda) {
-        this.idMoneda = idMoneda;
+    public void setIdmoneda(int idmoneda) {
+        this.idmoneda = idmoneda;
     }
 }

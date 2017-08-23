@@ -2,22 +2,22 @@ package com.beeva.app.Entidades;
 
 public class Rol{
 
-    private int idRol;
-    private String nombre;
+    private int idrol;
+    private String nombrerol;
 
-    public int getIdRol() {
-        return idRol;
+    public int getIdrol() {
+        return idrol;
     }
 
-    public void setIdRol(int idRol) {
-        this.idRol = idRol;
+    public void setIdrol(int idrol) {
+        this.idrol = idrol;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombrerol() {
+        return nombrerol;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombrerol(String nombrerol) {
+        this.nombrerol = nombrerol;
     }
 }

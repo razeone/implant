@@ -1,22 +1,22 @@
 package com.beeva.app.Entidades;
 
 public class Horas_Recurso{
-    private int idHoras;
-    private String codigoRecurso;
+    private int idhoras;
+    private String codigorecurso;
 
-    public int getIdHoras() {
-        return idHoras;
+    public int getIdhoras() {
+        return idhoras;
     }
 
-    public void setIdHoras(int idHoras) {
-        this.idHoras = idHoras;
+    public void setIdhoras(int idhoras) {
+        this.idhoras = idhoras;
     }
 
-    public String getCodigoRecurso() {
-        return codigoRecurso;
+    public String getCodigorecurso() {
+        return codigorecurso;
     }
 
-    public void setCodigoRecurso(String codigoRecurso) {
-        this.codigoRecurso = codigoRecurso;
+    public void setCodigorecurso(String codigorecurso) {
+        this.codigorecurso = codigorecurso;
     }
 }

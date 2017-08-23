@@ -3,33 +3,33 @@ package com.beeva.app.Entidades;
 import java.util.Date;
 
 public class Proyecto_Usuario{
-    private String codigoProyecto;
-    private int idUsuario;
-    private String avitividad;
+    private String codigoproyecto;
+    private int idusuario;
+    private String actividad;
     private Date fecha;
 
-    public String getCodigoProyecto() {
-        return codigoProyecto;
+    public String getCodigoproyecto() {
+        return codigoproyecto;
     }
 
-    public void setCodigoProyecto(String codigoProyecto) {
-        this.codigoProyecto = codigoProyecto;
+    public void setCodigoproyecto(String codigoproyecto) {
+        this.codigoproyecto = codigoproyecto;
     }
 
-    public int getIdUsuario() {
-        return idUsuario;
+    public int getIdusuario() {
+        return idusuario;
     }
 
-    public void setIdUsuario(int idUsuario) {
-        this.idUsuario = idUsuario;
+    public void setIdusuario(int idusuario) {
+        this.idusuario = idusuario;
     }
 
-    public String getAvitividad() {
-        return avitividad;
+    public String getActividad() {
+        return actividad;
     }
 
-    public void setAvitividad(String avitividad) {
-        this.avitividad = avitividad;
+    public void setActividad(String actividad) {
+        this.actividad = actividad;
     }
 
     public Date getFecha() {
