@@ -9,7 +9,6 @@ public class Recurso{
     private String estadorecurso;
     private String nombreperfil;
     private String nombreempresa;
-    private String estadorecurso;
 
     public String getCodigorecurso() {
         return codigorecurso;
