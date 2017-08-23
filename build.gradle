@@ -24,6 +24,6 @@ dependencies {
 
 flyway {
     url = 'jdbc:postgresql://localhost/implant'
-    user = 'implant'
-    password = 'implant'
+    user = 'implantdb'
+    password = 'b33v42017!'
 }

@@ -6,8 +6,8 @@ import org.sql2o.Sql2o;
 public class Conexion{
 
     final static String DB_URL = "jdbc:postgresql://localhost/implant";
-    final static String USER = "implant";
-    final static String PASS = "implant";
+    final static String USER = "implantdb";
+    final static String PASS = "b33v42017!";
     private static Sql2o sql2o;
 
     public static Sql2o obtenerConexion(){
